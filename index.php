@@ -59,7 +59,7 @@ CSS Elements
                                         <span id="dollar"><sup class="counter-sup">*</sup><span id="dollar-figure"></span>
 
                                         <p class="small-print"><sup>*</sup> "Estimated money Loss / Gain"</p>
-                                    </div> <!-- /.fraud-counter -->
+                                    </div> <!-- /.counter -->
 
                             </div> <!-- /.col-md-6 col-md-offset-3 -->
                         
