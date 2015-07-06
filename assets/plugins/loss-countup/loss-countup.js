@@ -19,7 +19,7 @@ var endDate;
 
 $(document).ready(function() {
     function UpdateDollarz(){
-        startDate = new Date('1/1/2015 00:00:01 AM GMT').getTime();
+        startDate = new Date('1/1/2015 00:00:01 AM GMT').getTime(); // Define date to begin counter
         endDate = new Date().getTime(); // ALWAYS THE CURRENT, PRECISE TIME...
 
         // FOR A SPAN ITS NOT .VAL() ... INSTEAD ITS .TEXT() OR .HTML()...
@@ -27,7 +27,7 @@ $(document).ready(function() {
         // USING THE CONSOLE TO WATCH FOR ERRORS WILL GIVE YOU CLUES 
         // ON WHERE THE ISSUES ARE WHEN DEBUGGING JAVASCRIPT.
         
-        $('#dollar-figure').text('$' + (mydiff(startDate, endDate, 'seconds') * 357).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"));
+        $('#dollar-figure').text('$' + (mydiff(startDate, endDate, 'seconds') * 357).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"));  // 357 can be changed to any amount required to be multiplied by
     };
     
     setInterval(function(){

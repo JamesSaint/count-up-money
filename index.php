@@ -76,7 +76,7 @@ jQuery and JavaScript Plugins
 =============================================== -->
 
 <script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="assets/plugins/fraud-loss-countup/fraud-loss-countup.js"></script>
+<script type="text/javascript" src="assets/plugins/loss-countup/loss-countup.js"></script>
 
 </body>
 </html>
